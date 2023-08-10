@@ -1,0 +1,139 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+@font-face {
+    font-family:'Oswald', sans-serif;
+    src: url('./fonts/Oswald-VariableFont_wght.ttf');
+}
+body {
+    background-color: rgb(85, 170, 85);
+}
+
+/* HEADER*/
+
+img.navbar__logo {
+    width: 200px;
+    margin-bottom: 10%;
+}
+header nav.bg-custom{
+    background-color: #3c4336;
+    font-size:large;
+    text-transform: uppercase;
+}
+.drop-down-custom {
+    background-color: #3c4336;
+}
+.anchor-custom {
+    color: rgb(253, 254, 255);
+}
+/* End HEADER*/
+
+
+/*MAIN*/
+/*SECTION promociones*/
+
+main section.promociones {
+    background-color: #3c4336;
+    border-radius: 15px;
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    
+}
+main section.promociones h1.promociones__titulo {
+    font-family:'Oswald', sans-serif;
+    text-transform: uppercase;
+    color:  rgb(206, 211, 216);
+    margin-bottom: 10%;
+    margin-top: 5%;
+    border-top: solid rgb(206, 211, 216);
+    border-radius: 5%;
+}
+main section.promociones div.promociones__kit-one {
+    text-align: center;
+    background-color:rgb(85, 170, 85);
+    border: solid #3f552c;
+    border-radius: 50px;
+    margin: 5%;
+    padding: 5%;
+}
+main section.promociones div.promociones__kit-two {
+    text-align: center;
+    text-align: center;
+    background-color:rgb(85, 170, 85);
+    border: solid #3f552c;
+    border-radius: 50px;
+    margin: 5%;
+    padding: 5%;
+}
+section.promociones div.promociones__kit-one img.promociones__kit-one-imagen {
+    border: solid #3f552c;
+    border-radius: 50px;
+    width: 95%;
+    margin: auto;
+}
+
+section.promociones div.promociones__kit-two .promociones__kit-two-imagen {
+    border: solid #3f552c;
+    border-radius: 50px;
+    width: 95%; 
+    margin: auto;
+}
+.promociones__kit-two-titulo {
+    font-family:'Oswald', sans-serif;
+    font-size: 30px;
+    margin-top: 5%;
+    text-transform: uppercase;
+}
+
+/* End SECTION promociones*/
+
+main section.destacados {
+    background-color: #3c4336;
+    border-radius: 15px;
+    margin: 15px;
+    margin-top: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+section.destacados .destacados__titulo{
+    font-family:'Oswald', sans-serif;
+    text-transform: uppercase;
+    color:  rgb(206, 211, 216);
+    margin-bottom: 10%;
+    margin-top: 5%;
+    border-top: solid rgb(206, 211, 216);
+    border-radius: 5%;
+}
+main section.destacados div.destacados__general{
+    text-align: center;
+    background-color:rgb(85, 170, 85);
+    border: solid #3f552c;
+    border-radius: 50px;
+    margin: 8%;
+    padding: 2%
+}
+main section.destacados div.destacados__general .destacados__imagen {
+    border: solid #3f552c;
+    border-radius: 50px;
+    margin: auto;
+    width: 60%;
+}
+.destacados__producto{
+    font-family:'Oswald', sans-serif;
+    font-size: 30px;
+    margin-top: 5%;
+    text-transform: uppercase;
+}
+.destacados__parrafo{
+    color:rgb(206, 211, 216);
+    font-family:'Oswald', sans-serif;
+    font-size: 100%;
+    margin-top: 5%;
+    text-transform: uppercase;
+}
